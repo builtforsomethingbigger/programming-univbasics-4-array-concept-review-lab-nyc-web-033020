@@ -1,6 +1,6 @@
 def find_element_index(array, value_to_find)
-  if array.index.any? value_to_find
-    puts value_to_find
+  if array.any? value_to_find
+    puts array[value_to_find]
   end
 end
 
